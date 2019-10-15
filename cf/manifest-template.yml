@@ -2,7 +2,7 @@
 applications:
 - name: deven-openshiftdemo${appHostSuffix}
   path: ${build.artifactPath}
-  buildpack: java_buildpack
+  buildpack: java_buildpack_offline
   memory: 1G
   instances: ${appInstances}
   env:

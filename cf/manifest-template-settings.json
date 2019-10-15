@@ -1,0 +1,13 @@
+{
+  "dev-edc1" : {
+    "appHostSuffix": "-dev",
+    "appInstances": 1,
+    "logLevel": "DEBUG"
+  },
+  "dev-ecc" : {
+    "appHostSuffix": "-dev",
+    "appInstances": 1,
+    "logLevel": "DEBUG"
+  }
+}
+

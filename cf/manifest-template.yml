@@ -1,0 +1,10 @@
+---
+applications:
+- name: deven-openshiftdemo${appHostSuffix}
+  path: ${build.artifactPath}
+  buildpack: java_buildpack
+  memory: 1G
+  instances: ${appInstances}
+  env:
+    _JAVA_OPTIONS: -Dlogging.level.org.springframework.web=${logLevel}
+    JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'    

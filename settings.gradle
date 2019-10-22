@@ -2,7 +2,7 @@ pluginManagement {
     repositories {
        maven { url 'https://repo1.maven.org/maven2/' }
         maven { url 'https://plugins.gradle.org/m2/' }
-        maven { url 'https://mvnrepository.com/artifact/io.openliberty.boost/boost-gradle-plugin' }
+        maven { url 'https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools' }
     }
 }
 
